@@ -1,0 +1,136 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: maker的博客
+subtitle: 创造服务于生活的技术
+description: iOS 程序员一枚,喜欢编码.学习中。
+author: maker
+email: 806160921@qq.com
+
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://www.maker997.com
+root: /
+permalink: :year/:month/:day/:title/
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+highlight:                                                                                                                                                                                                   
+  enable: true                                                                                                                                                                                               
+  auto_detect: true                                                                                                                                                                                          
+  line_number: true                                                                                                                                                                                          
+  tab_replace: ''
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 1
+category: 1
+tag: 1
+
+# Server
+## Hexo uses Connect as a server
+## You can customize the logger format as defined in
+## http://www.senchalabs.org/connect/logger.html
+port: 4000
+server_ip: localhost
+logger: false
+logger_format: dev
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## 对每个页面分别设置条目数
+index_generator:
+  per_page: 5
+
+archive_generator:
+  per_page: 200
+  yearly: true
+  monthly: true
+
+tag_generator:
+  per_page: 10
+
+category_generator:
+  per_page: 10
+
+pagination_dir: page
+
+# Disqus
+disqus_shortname:
+
+# Extensions
+## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+## Themes: https://github.com/hexojs/hexo/wiki/Themes
+#plugins:
+# - hexo-generator-feed
+
+
+
+theme: yilia
+exclude_generator:
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+#deploy:
+#  type: git
+#  repository: https://github.com/maker997/maker997.github.io.git
+#  branch: master
+
+deploy:
+  type: rsync
+  host: 45.62.111.236
+  user: root
+  root: /root/makerBlog
+  port: 29219
+  delete: true
+  verbose: true
+  ignore_errors: false
+
+#自动生成站点地图
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 100
+
+# 添加本地搜索功能
+search:
+  path: search.xml
+  field: all
+

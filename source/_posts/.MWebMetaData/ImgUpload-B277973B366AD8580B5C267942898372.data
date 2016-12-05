@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>083594568FDD61EE12AFB4172D58DF8D</key>
+	<array>
+		<dict>
+			<key>localURL</key>
+			<string>media/animate01.gif</string>
+			<key>remoteURL</key>
+			<string>http://7xtc4k.com1.z0.glb.clouddn.com/animate01.gif</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/descript.png</string>
+			<key>remoteURL</key>
+			<string>http://7xtc4k.com1.z0.glb.clouddn.com/descript.png</string>
+		</dict>
+	</array>
+	<key>selectedItem</key>
+	<string>083594568FDD61EE12AFB4172D58DF8D</string>
+</dict>
+</plist>
