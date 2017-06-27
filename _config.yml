@@ -1,17 +1,13 @@
-# Hexo Configuration
-## Docs: http://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: maker的博客
+title: maker 的技术博客
 subtitle: 创造服务于生活的技术
 description: iOS 程序员一枚,喜欢编码.学习中。
 author: maker
 email: 806160921@qq.com
-
+keywords: "前端,js,Python,Linux,html5,开发者,程序猿,编程,爬虫,css3,用户体验"
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.maker997.com
 root: /
 permalink: :year/:month/:day/:title/
@@ -88,15 +84,15 @@ category_generator:
 pagination_dir: page
 
 # Disqus
-disqus_shortname:
+# disqus_shortname:
 
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 #plugins:
 # - hexo-generator-feed
-
-
+# - hexo-generator-baidu-sitemap
+# - hexo-generator-sitemap
 
 theme: yilia
 exclude_generator:
@@ -118,7 +114,7 @@ deploy:
   verbose: true
   ignore_errors: false
 
-#自动生成站点地图
+#SEO优化
 sitemap:
     path: sitemap.xml
 baidusitemap:
@@ -133,4 +129,22 @@ feed:
 search:
   path: search.xml
   field: all
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
 
