@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>083594568FDD61EE12AFB4172D58DF8D</key>
+	<array>
+		<dict>
+			<key>localURL</key>
+			<string>media/new_photos-2.png</string>
+			<key>remoteURL</key>
+			<string>new_photos-2.png</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/show_photos-1.png</string>
+			<key>remoteURL</key>
+			<string>show_photos-1.png</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/litten_photos.png</string>
+			<key>remoteURL</key>
+			<string>litten_photos.png</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/maker_photos.png</string>
+			<key>remoteURL</key>
+			<string>maker_photos.png</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/ins_js.png</string>
+			<key>remoteURL</key>
+			<string>ins_js.png</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/tools.png</string>
+			<key>remoteURL</key>
+			<string>tools.png</string>
+		</dict>
+		<dict>
+			<key>localURL</key>
+			<string>media/makerBlog_dir-1.png</string>
+			<key>remoteURL</key>
+			<string>makerBlog_dir-1.png</string>
+		</dict>
+	</array>
+	<key>selectedItem</key>
+	<string>083594568FDD61EE12AFB4172D58DF8D</string>
+</dict>
+</plist>
