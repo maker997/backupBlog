@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48fd056-1d2f-435a-a449-f877a4e4517f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/min_photos/2016-09-14_151013R.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/min_photos/2017-01-07_133345R.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/2016-09-14_151013R.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/2017-01-07_133345R.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/_posts/一个程序员的修身记录.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/yilia" afterPath="$PROJECT_DIR$/themes/yilia" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/.MWebMetaData/ImgUpload-C5B64A169E1E1B9EA0CB67EF9FD8E2D2.data" afterPath="$PROJECT_DIR$/source/_posts/.MWebMetaData/ImgUpload-C5B64A169E1E1B9EA0CB67EF9FD8E2D2.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/Instruments.md" afterPath="$PROJECT_DIR$/source/_posts/Instruments.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/RunLoop一个跑圈的-Boy.md" afterPath="$PROJECT_DIR$/source/_posts/RunLoop一个跑圈的-Boy.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/UIButton添加水波纹.md" afterPath="$PROJECT_DIR$/source/_posts/UIButton添加水波纹.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/hexo-Yilia-主题如何添加相册功能.md" afterPath="$PROJECT_DIR$/source/_posts/hexo-Yilia-主题如何添加相册功能.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/安河桥.md" afterPath="$PROJECT_DIR$/source/_posts/安河桥.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/无限轮播控件.md" afterPath="$PROJECT_DIR$/source/_posts/无限轮播控件.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/空巢青年.md" afterPath="$PROJECT_DIR$/source/_posts/空巢青年.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/自定义转场动画.md" afterPath="$PROJECT_DIR$/source/_posts/自定义转场动画.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/photos/data.json" afterPath="$PROJECT_DIR$/source/photos/data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/photos/ins.js" afterPath="$PROJECT_DIR$/source/photos/ins.js" />
     </list>
     <ignored path="makerBlog.iws" />
     <ignored path=".idea/workspace.xml" />
