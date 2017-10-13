@@ -2,6 +2,7 @@
 title: Instruments分析加载图片占用的内存
 date: 2016-12-11 23:25:32
 tags:
+    - iOS
 ---
 加载图片的方法[UIImage imageName:@""],用得比较多,[UIImage imageWithContentsOfFile:]这个方法用得比较少,这是为啥呢?听我给你一一道来.
 

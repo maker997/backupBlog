@@ -1,7 +1,8 @@
 ---
 title: hexo Yilia 主题如何添加相册功能
 date: 2017-07-01 08:13:47
-tags:
+tags: 
+    - Hexo
 ---
 > 添加相册功能的思路
 
@@ -70,7 +71,26 @@ yourBlog/source/photos/data.json
   注意: 该脚本对图片的命名规则有要求.
   图片应该这样命名: 2016-10-12_xxx.jpg/png
   
-> 5.总结
+  
+  > 5.会出现的坑
+  
+1. python too.py 命令的时候出现`no module named PIL`错误
+   出现这错误的原因是: PIL 模块找不到,PIL 模块已经过时了.
+   解决方案: pip install pillow
+   我的是Mac 系统, python 版本是3.5.2, pip的版本是9.0.1.
+   其他环境的暂时没有尝试.
+2. mac系统如何切换 Python 的版本
+    [python3.5.2连接下载连接](https://www.python.org/downloads/release/python-352/)
+    ![downloadPython](http://7xtc4k.com1.z0.glb.clouddn.com/downloadPython.png)
+*   一路 next 安装完毕
+*   设置 python 的环境变换切换版本
+*   open ~/.bash_profile 打开设置保存用户环境变量的文件
+*   在 export PATH 之后添加 alias python="/Library/Frameworks/Python.framework/Version/3.5/bin/python3.5"(注意引号的是否为英文)
+*   设置完成的效果
+    ![pythonShortCut](http://7xtc4k.com1.z0.glb.clouddn.com/pythonShortCut.png)
+*   保存退出后,让文件生效. source ~/.bash_profile
+  
+> 6.总结
 
 走到这里所有的所有的准备工作都做好了.
 进入到你博客目录, 执行 python tool.py(处理图片,上传图片,生成 json 文件)
@@ -78,7 +98,7 @@ hexo clean (清理之前的 HTML 等)
 hexo g (生成 HTML 文件)
 hexo s (看看效果如何)
 最后部署到你的博客上.
-网上大致文章都是这么的写,找到一个差不多就开始实践吧,如果你看我的去实践遇到问题可以找我,我只要有时间定会回复你,(github提问,博客评论, QQ 加好友都可以哦)✌️
+网上大致文章都是这么的写,找到一个差不多就开始实践吧,如果你看我的去实践遇到问题可以找我,我只要有时间定会回复你.如果遇见更多的坑欢迎补充(github提问,博客评论, QQ 加好友都可以哦)✌️
   
   
 

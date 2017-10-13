@@ -6,45 +6,15 @@
 	<array>
 		<dict>
 			<key>localURL</key>
-			<string>media/new_photos-2.png</string>
+			<string>media/downloadPython.png</string>
 			<key>remoteURL</key>
-			<string>new_photos-2.png</string>
+			<string>downloadPython.png</string>
 		</dict>
 		<dict>
 			<key>localURL</key>
-			<string>media/show_photos-1.png</string>
+			<string>media/pythonShortCut.png</string>
 			<key>remoteURL</key>
-			<string>show_photos-1.png</string>
-		</dict>
-		<dict>
-			<key>localURL</key>
-			<string>media/litten_photos.png</string>
-			<key>remoteURL</key>
-			<string>litten_photos.png</string>
-		</dict>
-		<dict>
-			<key>localURL</key>
-			<string>media/maker_photos.png</string>
-			<key>remoteURL</key>
-			<string>maker_photos.png</string>
-		</dict>
-		<dict>
-			<key>localURL</key>
-			<string>media/ins_js.png</string>
-			<key>remoteURL</key>
-			<string>ins_js.png</string>
-		</dict>
-		<dict>
-			<key>localURL</key>
-			<string>media/tools.png</string>
-			<key>remoteURL</key>
-			<string>tools.png</string>
-		</dict>
-		<dict>
-			<key>localURL</key>
-			<string>media/makerBlog_dir-1.png</string>
-			<key>remoteURL</key>
-			<string>makerBlog_dir-1.png</string>
+			<string>pythonShortCut.png</string>
 		</dict>
 	</array>
 	<key>selectedItem</key>

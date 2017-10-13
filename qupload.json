@@ -1,0 +1,22 @@
+{
+   "src_dir"            :   "/Users/liujiaqi/Desktop/backupBlog/min_photos",
+   "access_key"         :   "zSn4Yp4MwE2EDUSotQv1eNSanqjGvp86-LK5H_Ny",
+   "secret_key"         :   "PZTh08nNbDujkTXSf7ZwakakHhRHaeUoQaYN7AXZ",
+   "bucket"             :   "makerblog",
+   "file_list"          :   "<FileList>",
+   "zone"               :   "<Zone>",
+   "ignore_dir"         :   false,
+   "key_prefix"         :   "min_photos/",
+   "up_host"            :   "http://up.qiniu.com",
+   "overwrite"          :   false,
+   "check_exists"       :   false,
+   "check_hash"         :   true,
+   "check_size"         :   false,
+   "skip_file_prefixes" :   ".git,bin",
+   "skip_path_prefixes" :   "hello/,temp/",
+   "skip_fixed_strings" :   ".svn,qshell,public,temp,scaffolds,source,themes,node_modules,__pycache__",
+   "skip_suffixes"      :   ".DS_Store,.exe,.py,.json,.yml,.idea,.md,.sh,.git,.gitignore",
+   "rescan_local"       :   true,
+   "log_file"           :   "upload.log",
+   "log_level"          :   "info"
+}

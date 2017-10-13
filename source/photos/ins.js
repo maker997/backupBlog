@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'https://raw.githubusercontent.com/maker997/backupBlog/master/min_photos/' + data.link[i];
-          var src = 'https://raw.githubusercontent.com/maker997/backupBlog/master/photos/' + data.link[i];
+          var minSrc = 'http://7xtc4k.com1.z0.glb.clouddn.com/min_photos/' + data.link[i];
+          var src = 'http://7xtc4k.com1.z0.glb.clouddn.com/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
